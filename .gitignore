@@ -1,0 +1,26 @@
+# Python
+*.pyc
+__pycache__/
+*/*/__pycache__/
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Django
+*.log
+*.pot
+local_settings.py
+db.sqlite3  # New projects use this default, but you may use another DB
+/media/     # Uploaded media files might be managed separately in production
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
